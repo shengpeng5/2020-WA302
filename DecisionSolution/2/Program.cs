@@ -25,6 +25,8 @@ namespace _2
                 //true path coding block
                 //true mean the condition on the if statement is true
                 Console.WriteLine($"Your number {number} is even");
+                Console.WriteLine("Your number {0} is even", number);
+                Console.WriteLine("Your number" + number + "is even");
 
             }
             else
