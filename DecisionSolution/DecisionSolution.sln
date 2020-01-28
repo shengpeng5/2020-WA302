@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2", "2\2.csproj", "{B6F8651
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HighMidLow", "HighMidLow\HighMidLow.csproj", "{6F59A8D2-03AC-4F28-ACD3-7AEBD9E7B2D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Branchif_MarinerStars", "Branchif_MarinerStars\Branchif_MarinerStars.csproj", "{ABA34315-73E6-42F2-9ED0-41144C85FE92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicalCondition", "LogicalCondition\LogicalCondition.csproj", "{43F6A12B-AA89-4290-9EFD-35670C886700}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{6F59A8D2-03AC-4F28-ACD3-7AEBD9E7B2D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F59A8D2-03AC-4F28-ACD3-7AEBD9E7B2D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F59A8D2-03AC-4F28-ACD3-7AEBD9E7B2D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABA34315-73E6-42F2-9ED0-41144C85FE92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABA34315-73E6-42F2-9ED0-41144C85FE92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABA34315-73E6-42F2-9ED0-41144C85FE92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABA34315-73E6-42F2-9ED0-41144C85FE92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43F6A12B-AA89-4290-9EFD-35670C886700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F6A12B-AA89-4290-9EFD-35670C886700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F6A12B-AA89-4290-9EFD-35670C886700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F6A12B-AA89-4290-9EFD-35670C886700}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
