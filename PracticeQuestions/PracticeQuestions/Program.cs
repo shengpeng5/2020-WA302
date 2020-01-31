@@ -10,7 +10,7 @@ namespace PracticeQuestions
     {
         static void Main(string[] args)
         {
-            int number = 0;
+            int number = 6;
             string result;
 
             if(number > 0)

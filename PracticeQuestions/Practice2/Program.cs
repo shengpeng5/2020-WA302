@@ -10,7 +10,7 @@ namespace Practice2
     {
         static void Main(string[] args)
         {
-            int age = 9;
+            int age = 19;
             string people;
             string money;
 
