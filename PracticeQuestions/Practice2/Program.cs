@@ -42,7 +42,7 @@ namespace Practice2
                 }
             }//eos
 
-            Console.WriteLine($"Cunstomer is {people} price is {money}");
+            Console.WriteLine($"Cunstomer age is {people} price is {money}");
         }
     }
 }
