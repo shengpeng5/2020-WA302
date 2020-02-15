@@ -26,6 +26,9 @@ namespace ex5
             //  NO value is placed in your variable
             //  the test returns a boolean false
 
+
+            //condition flag:
+            //NOTE: it MUST be rest on EACH pass of the OUTER loop
             int number = -1;
             string inputString = "";
 
@@ -36,8 +39,10 @@ namespace ex5
                 {
                     Console.Write("Enter a positive whole number OR Enter 0 to quit.");
                     inputString = Console.ReadLine();
+                    //need a test to appropriately set your loop exit test
                     if (int.TryParse(inputString, out number))
                     {
+                        //set the flag to an appropriate values to work with your logic
                         validFlag = true;
                     }
                 } while (validFlag == false); ; //(!int.TryParse(inputString, out number))
@@ -64,7 +69,8 @@ namespace ex5
                         Console.WriteLine($"{number} is invalid. Try again\n\n");
                     }
                 }
-            }
+            }//eol while
+            Console.WriteLine($"{validFlag} is the value of the validation flag");
         }
     }
 }
